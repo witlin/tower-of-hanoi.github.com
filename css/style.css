@@ -1,0 +1,74 @@
+
+h1 {
+    padding-left: 6em; 
+    padding-top: 2em;
+}
+
+.backplane-row {
+    width: 99%;
+    padding-bottom: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.backplane-col {
+    padding: 0.1em;
+    display: inline-block;
+    width: 28%;
+    border: 0.2rem gray dashed;
+    margin: 1em;
+    padding-bottom: 17em;
+    vertical-align: top;
+}
+
+#left-col.backplane-col {
+    margin-left: 4em;
+    padding-bottom: 0;
+}
+
+#top.backplane-row {
+    padding-bottom: 4em;
+    margin-bottom: 10em;
+}
+
+#brass-bar {
+    padding: 2em;
+    margin: 1em;
+    background-color: orange;
+    border-radius: 1em;
+}
+
+.disk-row {
+    margin-top: 0.4em;
+}
+
+.disk {
+    display: inline-block;
+    padding-bottom: 5em;
+    background-color: gold;
+    border-radius: 0.4em;
+}
+
+.disk-side {
+    display: inline-block;
+    padding-bottom: 5em;
+}
+
+#f0.disk-row > .disk {
+    width: 33%;
+}
+
+#f0.disk-row > .disk-side {
+    width: 30%;
+}
+
+#f1.disk-row > .disk {
+    width: 56%;
+}
+
+#f1.disk-row > .disk-side {
+    width: 18%;
+}
+
+#f2.disk-row > .disk {
+    width: 94%;
+}
